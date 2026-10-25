@@ -1577,6 +1577,10 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><polyline points="20 6 9 17 4 12"/></svg>
             Зафиксировать расчет и скидку
           </button>
+          <div style="font-size:11px; color:var(--text-muted); text-align:center; margin-top:8px; display:flex; align-items:center; justify-content:center; gap:5px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:12px; height:12px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Данные защищены в соответствии с 152-ФЗ РФ
+          </div>
         </div>
       </div>
     </div>
@@ -1854,8 +1858,10 @@
         <img src="vershina_logo.svg" alt="Вершина Детейлинг" style="height:32px;">
       </div>
 
-      <div style="font-size:12.5px; color:var(--text-muted);">
-        © 2026 Детейлинг-студия «Вершина». г. Саратов, ул. имени С.Ф. Тархова, 5А.
+      <div style="font-size:12px; color:var(--text-muted); line-height:1.6; text-align:center;">
+        © 2026 Детейлинг-студия «Вершина». г. Саратов, ул. имени С.Ф. Тархова, 5А.<br>
+        <span style="font-size:11px; opacity:0.8;">Информация на сайте не является публичной офертой (ст. 437 ГК РФ). Окончательная стоимость определяется после осмотра автомобиля.</span><br>
+        <a href="javascript:void(0)" onclick="openPrivacyModal()" style="color:var(--text-muted); text-decoration:underline; font-size:11px; display:inline-block; margin-top:4px;">Политика конфиденциальности и 152-ФЗ РФ</a>
       </div>
 
       <div style="display:flex; gap:16px; align-items:center;">
@@ -1908,6 +1914,9 @@
           <button type="submit" class="btn btn-chrome" style="width:100%; margin-top:8px;">
             Подтвердить запись со скидкой
           </button>
+          <div style="font-size:11px; color:var(--text-muted); text-align:center; margin-top:10px; line-height:1.45;">
+            Нажимая кнопку, вы соглашаетесь с <a href="javascript:void(0)" onclick="openPrivacyModal()" style="color:#C0C0C8; text-decoration:underline;">Политикой конфиденциальности</a> (152-ФЗ РФ)
+          </div>
         </form>
       </div>
 
@@ -1930,6 +1939,56 @@
           Открыть диалог в WhatsApp
         </a>
       </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       PRIVACY POLICY MODAL (152-FZ COMPLIANCE)
+       ========================================================= -->
+  <div class="modal-overlay" id="privacyModal" style="z-index: 10000;">
+    <div class="modal-card" style="max-width:620px; max-height:85vh; overflow-y:auto; text-align:left; padding:28px 24px;">
+      <button class="modal-close-x" onclick="closePrivacyModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+        <div style="width:32px; height:32px; border-radius:8px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.15); display:flex; align-items:center; justify-content:center;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" style="width:16px; height:16px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 style="font-family:var(--font-headline); font-size:17px; font-weight:800; color:#FFFFFF; margin:0;">
+          Политика обработки персональных данных
+        </h3>
+      </div>
+
+      <div style="font-size:12px; line-height:1.65; color:var(--text-secondary);">
+        <p style="margin-bottom:12px;">
+          Настоящая Политика составлена в соответствии с требованиями Федерального закона от 27.07.2006 № 152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных студией детейлинга <strong style="color:#fff;">«Вершина»</strong> (г. Саратов, ул. имени С.Ф. Тархова, 5А).
+        </p>
+
+        <h4 style="font-size:13px; font-weight:700; color:#FFFFFF; margin:14px 0 6px;">1. Цели сбора данных</h4>
+        <p style="margin-bottom:10px;">
+          Сбор данных осуществляется исключительно для обратной связи, расчета предварительной стоимости детейлинг-услуг (оклейка антигравийной пленкой, полировка кузова, химчистка, нанесение керамических составов) и согласования времени заезда автомобиля в бокс.
+        </p>
+
+        <h4 style="font-size:13px; font-weight:700; color:#FFFFFF; margin:14px 0 6px;">2. Состав данных</h4>
+        <p style="margin-bottom:10px;">
+          Обрабатываются следующие сведения, добровольно вводимые пользователем: имя, контактный номер телефона, марка и модель транспортного средства.
+        </p>
+
+        <h4 style="font-size:13px; font-weight:700; color:#FFFFFF; margin:14px 0 6px;">3. Локализация и безопасность (ч. 5 ст. 18 152-ФЗ)</h4>
+        <p style="margin-bottom:10px;">
+          В соответствии с ч. 5 ст. 18 Федерального закона № 152-ФЗ «О персональных данных», сбор, систематизация, накопление и первичное хранение персональных данных граждан РФ осуществляются исключительно на территории Российской Федерации. Студия «Вершина» гарантирует конфиденциальность: данные не передаются третьим лицам, не распространяются и не используются для несанкционированных рекламных рассылок. Передача данных по сети защищена сертификатом шифрования SSL.
+        </p>
+
+        <h4 style="font-size:13px; font-weight:700; color:#FFFFFF; margin:14px 0 6px;">4. Отзыв согласия</h4>
+        <p style="margin-bottom:16px;">
+          Пользователь вправе в любой момент отозвать свое согласие на обработку данных путем звонка или сообщения администратору по телефону: <strong style="color:#fff;">+7 (929) 777-88-64</strong> или лично в студии по адресу: г. Саратов, ул. имени С.Ф. Тархова, 5А.
+        </p>
+      </div>
+
+      <button type="button" class="btn btn-chrome" onclick="closePrivacyModal()" style="width:100%; margin-top:8px;">
+        Принять и закрыть
+      </button>
     </div>
   </div>
 
@@ -2073,6 +2132,31 @@
     }
 
     /* 4. MODAL & PHONE AUTO-MASKING */
+    /* PRIVACY MODAL (152-FZ) */
+    const privacyModal = document.getElementById('privacyModal');
+
+    function openPrivacyModal() {
+      if (privacyModal) {
+        privacyModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closePrivacyModal() {
+      if (privacyModal) {
+        privacyModal.style.display = 'none';
+        if (!bookingModal || bookingModal.style.display !== 'flex') {
+          document.body.style.overflow = '';
+        }
+      }
+    }
+
+    if (privacyModal) {
+      privacyModal.addEventListener('click', (e) => {
+        if (e.target === privacyModal) closePrivacyModal();
+      });
+    }
+
     const bookingModal = document.getElementById('bookingModal');
     const leadPhone = document.getElementById('leadPhone');
 
@@ -2130,6 +2214,38 @@
       const waMsg = encodeURIComponent(`Здравствуйте, Вершина Детейлинг! Заявка #${randomCode} с сайта.\nИмя: ${name}\nТелефон: ${phone}\nАвто: ${car}\nРасчетная стоимость: ${price}`);
       document.getElementById('waDirectSendBtn').href = `https://wa.me/79297778864?text=${waMsg}`;
     }
+  
+    /* COOKIE NOTICE HANDLER */
+    function dismissCookieNotice() {
+      const banner = document.getElementById('cookieNoticeBanner');
+      if (banner) {
+        banner.style.opacity = '0';
+        banner.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => { banner.style.display = 'none'; }, 300);
+      }
+      try { localStorage.setItem('cookieAccepted', 'true'); } catch(e) {}
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      try {
+        if (localStorage.getItem('cookieAccepted') === 'true') {
+          const banner = document.getElementById('cookieNoticeBanner');
+          if (banner) banner.style.display = 'none';
+        }
+      } catch(e) {}
+    });
+
   </script>
+
+  <!-- COOKIE & 152-FZ NOTICE BANNER -->
+  <div id="cookieNoticeBanner" style="position:fixed; bottom:20px; left:20px; max-width:360px; background:rgba(10, 10, 15, 0.95); border:1px solid rgba(255,255,255,0.15); border-radius:12px; padding:14px 18px; z-index:999; backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); box-shadow:0 12px 36px rgba(0,0,0,0.6); display:flex; flex-direction:column; gap:10px; font-size:11.5px; line-height:1.45; color:var(--text-secondary);">
+    <div>
+      Мы используем файлы cookie и сервисы аналитики для правильной работы калькулятора и защиты данных по 152-ФЗ. <a href="javascript:void(0)" onclick="openPrivacyModal()" style="color:#FFFFFF; text-decoration:underline;">Подробнее</a>
+    </div>
+    <button type="button" onclick="dismissCookieNotice()" class="btn btn-chrome" style="padding:7px 14px; font-size:11px; border-radius:6px; align-self:flex-start;">
+      Принять и закрыть
+    </button>
+  </div>
+
 </body>
 </html>
