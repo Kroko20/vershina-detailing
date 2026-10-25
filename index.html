@@ -1,0 +1,2135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Детейлинг-студия «ВЕРШИНА» | Премиальная защита авто в Саратове (Тархова, 5А)</title>
+  <meta name="description" content="Детейлинг студия Вершина в Саратове, ул. Тархова 5А. Профессиональная оклейка зон риска бронепленкой, антихром, оклейка крыши под панораму, полировка кузова до зеркала. Рейтинг 5.0.">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="Детейлинг-студия «ВЕРШИНА» | Саратов">
+  <meta property="og:description" content="Оклейка бронепленкой, антихром, полировка кузова и химчистка на ул. Тархова, 5А. Онлайн калькулятор стоимости.">
+  <meta property="og:type" content="website">
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- GOOGLE TYPOGRAPHY: UNBOUNDED + PLUS JAKARTA SANS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    /* =========================================================
+       STEALTH OBSIDIAN / CHROME METALLIC LUXURY ARCHITECTURE
+       Inspired by Supercar & High-End Automotive Aesthetics
+       ========================================================= */
+    :root {
+      --bg-dark: #050507;
+      --bg-surface: #0A0A0E;
+      --bg-card: #111116;
+      --bg-card-hover: #16161D;
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(255, 255, 255, 0.22);
+      --border-highlight: rgba(255, 255, 255, 0.4);
+      --text-white: #FFFFFF;
+      --text-secondary: #94A3B8;
+      --text-muted: #64748B;
+      --silver-glow: rgba(255, 255, 255, 0.15);
+      --crimson-accent: #E11D48;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --font-headline: 'Unbounded', -apple-system, sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: var(--font-body);
+      overflow-x: hidden;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      line-height: 1.6;
+      overflow-x: hidden;
+      width: 100%;
+      position: relative;
+    }
+
+    /* Ambient Spotlight Background Effect */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -150px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      height: 500px;
+      background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.05) 0%, rgba(5, 5, 7, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.2s ease;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* =========================================================
+       BUTTONS & METALLIC SHINE
+       ========================================================= */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 28px;
+      border-radius: var(--radius-md);
+      font-weight: 700;
+      font-size: 13.5px;
+      letter-spacing: 0.02em;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-chrome {
+      background: #FFFFFF;
+      color: #050507;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-chrome:hover {
+      background: #F1F5F9;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-white);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--border-highlight);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-white {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #FFFFFF;
+      background: transparent;
+    }
+
+    .btn-outline-white:hover {
+      background: #FFFFFF;
+      color: #050507;
+      border-color: #FFFFFF;
+    }
+
+    /* =========================================================
+       TOP RIBBON
+       ========================================================= */
+    .top-ribbon {
+      background: #08080C;
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 9px 16px;
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .ribbon-pill-gold {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      color: #FBBF24;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 10.5px;
+      font-weight: 700;
+    }
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+    .site-header {
+      position: sticky;
+      top: 0;
+      background: rgba(5, 5, 7, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      z-index: 100;
+      padding: 16px 0;
+    }
+
+    .header-layout {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand-logo-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+
+    .brand-logo-img {
+      height: 38px;
+      width: auto;
+    }
+
+    .nav-links-list {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links-list a {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      transition: color 0.2s;
+    }
+
+    .nav-links-list a:hover {
+      color: var(--text-white);
+    }
+
+    .header-contact-cluster {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .header-vk-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      color: #FFFFFF;
+      transition: all 0.2s;
+    }
+
+    .header-vk-pill:hover {
+      background: #0077FF;
+      border-color: #0077FF;
+      transform: translateY(-1px);
+    }
+
+    .phone-text-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .phone-number-bold {
+      font-family: var(--font-headline);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-white);
+      letter-spacing: 0.02em;
+    }
+
+    .phone-address-sub {
+      font-size: 10.5px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* =========================================================
+       HERO SECTION (SUPERCAR STEALTH AESTHETIC)
+       ========================================================= */
+    .hero-split-section {
+      padding: 60px 0 70px;
+      position: relative;
+    }
+
+    .hero-dual-columns {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .section-kicker-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #CBD5E1;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      padding: 6px 14px;
+      border-radius: 30px;
+      margin-bottom: 24px;
+    }
+
+    .hero-title-giant {
+      font-family: var(--font-headline);
+      font-size: clamp(32px, 4.4vw, 54px);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+      color: var(--text-white);
+      text-transform: uppercase;
+    }
+
+    .silver-gradient-text {
+      background: linear-gradient(135deg, #FFFFFF 0%, #94A3B8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-deck-paragraph {
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      max-width: 580px;
+      margin-bottom: 34px;
+    }
+
+    .hero-action-buttons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .hero-visual-frame {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+    }
+
+    .hero-visual-frame img {
+      width: 100%;
+      height: 440px;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.92) contrast(1.08);
+      transition: transform 0.5s ease;
+    }
+
+    .hero-visual-frame:hover img {
+      transform: scale(1.02);
+    }
+
+    .floating-trust-badge {
+      position: absolute;
+      background: rgba(14, 14, 20, 0.62);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius-md);
+      padding: 13px 20px;
+      box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+        inset 1.8px 3px 0px -2px rgba(255, 255, 255, 0.27),
+        inset -2px -2px 0px -2px rgba(255, 255, 255, 0.24),
+        inset -3px -8px 1px -6px rgba(255, 255, 255, 0.18),
+        inset -0.3px -1px 4px 0px rgba(0, 0, 0, 0.24),
+        inset -1.5px 2.5px 0px -2px rgba(0, 0, 0, 0.4),
+        inset 0px 3px 4px -2px rgba(0, 0, 0, 0.4),
+        inset 2px -6.5px 1px -4px rgba(0, 0, 0, 0.2),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+        0px 14px 32px 0px rgba(0, 0, 0, 0.65);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 10;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s;
+    }
+
+    .floating-trust-badge:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow:
+        inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+        inset 1.8px 3px 0px -2px rgba(255, 255, 255, 0.35),
+        inset -2px -2px 0px -2px rgba(255, 255, 255, 0.3),
+        inset -3px -8px 1px -6px rgba(255, 255, 255, 0.25),
+        inset -0.3px -1px 4px 0px rgba(0, 0, 0, 0.24),
+        inset -1.5px 2.5px 0px -2px rgba(0, 0, 0, 0.4),
+        inset 0px 3px 4px -2px rgba(0, 0, 0, 0.4),
+        inset 2px -6.5px 1px -4px rgba(0, 0, 0, 0.2),
+        0px 2px 8px 0px rgba(0, 0, 0, 0.25),
+        0px 20px 40px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .badge-icon-silver {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow:
+        inset 0 0 0 1px #ffffff08,
+        inset 2px 1px 0 -1px #ffffff45,
+        inset -1.5px -1px 0 -1px #ffffff3d,
+        inset -1px 2px 3px -1px #0006,
+        0 2px 5px rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      flex-shrink: 0;
+    }
+
+    .pill-top-right {
+      top: 24px;
+      right: 24px;
+    }
+
+    .pill-bottom-left {
+      bottom: 24px;
+      left: 24px;
+    }
+
+    /* =========================================================
+       TESLA-STYLE METRICS ROW
+       ========================================================= */
+    .metrics-ribbon-section {
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      padding: 38px 0;
+      margin-bottom: 70px;
+    }
+
+    .metrics-quad-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      text-align: center;
+    }
+
+    .metric-item-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .metric-item-col:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 20%;
+      height: 60%;
+      width: 1px;
+      background: var(--border-subtle);
+    }
+
+    .metric-number-bold {
+      font-family: var(--font-headline);
+      font-size: clamp(32px, 3.2vw, 42px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--text-white);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .metric-label-muted {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      letter-spacing: 0.02em;
+    }
+
+    /* =========================================================
+       SECTION TITLES
+       ========================================================= */
+    .section-wrap {
+      padding: 60px 0;
+    }
+
+    .section-header-block {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 48px;
+    }
+
+    .section-main-title {
+      font-family: var(--font-headline);
+      font-size: clamp(26px, 3.2vw, 38px);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      color: var(--text-white);
+    }
+
+    .section-lead-text {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* =========================================================
+       INTERACTIVE CALCULATOR / CONFIGURATOR
+       ========================================================= */
+    .configurator-shell {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 44px 38px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    }
+
+    .step-badge-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-headline);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-white);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 20px;
+    }
+
+    .step-number-circle {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #FFFFFF;
+    }
+
+    .car-class-selector-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 44px;
+    }
+
+    .car-class-option-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 20px 16px;
+      text-align: center;
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+
+    .car-class-option-btn:hover {
+      border-color: var(--border-focus);
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .car-class-option-btn.active {
+      border-color: #FFFFFF;
+      background: #181822;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.12);
+    }
+
+    .car-class-name {
+      font-family: var(--font-headline);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 4px;
+    }
+
+    .car-class-examples {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .services-selection-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 38px;
+    }
+
+    .service-check-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      cursor: pointer;
+      transition: all 0.2s;
+      position: relative;
+    }
+
+    .service-check-item:hover {
+      border-color: var(--border-focus);
+      background: var(--bg-card-hover);
+    }
+
+    .service-check-item.selected {
+      border-color: #FFFFFF;
+      background: #171720;
+    }
+
+    .checkbox-indicator-box {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.04);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+      flex-shrink: 0;
+      transition: all 0.2s;
+    }
+
+    .service-check-item.selected .checkbox-indicator-box {
+      background: #FFFFFF;
+      border-color: #FFFFFF;
+      color: #050507;
+    }
+
+    .service-info-col {
+      flex: 1;
+    }
+
+    .service-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+
+    .service-label-text {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text-white);
+    }
+
+    .service-price-amount {
+      font-family: var(--font-headline);
+      font-size: 14px;
+      font-weight: 800;
+      color: #FFFFFF;
+      white-space: nowrap;
+    }
+
+    .service-subtext-desc {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.45;
+    }
+
+    /* Calculator Summary Bar */
+    .calculator-summary-card {
+      background: #08080C;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 24px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .price-headline-animated {
+      font-family: var(--font-headline);
+      font-size: 32px;
+      font-weight: 800;
+      color: #FFFFFF;
+      letter-spacing: -0.02em;
+    }
+
+    .old-price-strike {
+      font-size: 16px;
+      color: var(--text-muted);
+      text-decoration: line-through;
+    }
+
+    .discount-pill-glow {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #FFFFFF;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+    }
+
+    /* =========================================================
+       BEFORE / AFTER OPTICAL SLIDER
+       ========================================================= */
+    .slider-stage-wrapper {
+      max-width: 1040px;
+      margin: 0 auto;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+    }
+
+    .slider-container-element {
+      position: relative;
+      width: 100%;
+      height: 480px;
+      overflow: hidden;
+      user-select: none;
+      cursor: ew-resize;
+    }
+
+    .slider-image-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slider-layer-before {
+      background-image: url('slider_hood.jpg');
+      filter: contrast(0.85) brightness(0.9);
+    }
+
+    .slider-scratch-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('swirl_scratches.png');
+      background-size: cover;
+      opacity: 0.65;
+      mix-blend-mode: screen;
+    }
+
+    .slider-layer-after {
+      background-image: url('slider_hood.jpg');
+      width: 100%;
+      height: 100%;
+      filter: contrast(1.15) brightness(1.05);
+      clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+      pointer-events: none;
+    }
+
+    .slider-badge-label {
+      position: absolute;
+      top: 20px;
+      padding: 7px 16px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    .label-before-pos {
+      right: 20px;
+      background: rgba(10, 10, 15, 0.78);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: var(--text-secondary);
+    }
+
+    .label-after-pos {
+      left: 20px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color: #050507;
+      font-weight: 900;
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.25);
+    }
+
+    .slider-divider-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background: #FFFFFF;
+      transform: translateX(-50%);
+      pointer-events: none;
+      z-index: 20;
+    }
+
+    .slider-handle-pill {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #000000;
+      border: 2px solid #FFFFFF;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    }
+
+    /* =========================================================
+       TESLA-STYLE PORTFOLIO CARDS
+       ========================================================= */
+    .portfolio-triad-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .portfolio-car-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: all 0.3s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .portfolio-car-card:hover {
+      border-color: var(--border-highlight);
+      transform: translateY(-4px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    }
+
+    .portfolio-photo-wrap {
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .portfolio-photo-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s;
+    }
+
+    .portfolio-car-card:hover .portfolio-photo-wrap img {
+      transform: scale(1.05);
+    }
+
+    .portfolio-tag-pill {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--border-subtle);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .portfolio-card-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .portfolio-car-name {
+      font-family: var(--font-headline);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-white);
+      margin-bottom: 12px;
+    }
+
+    .specs-chips-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+
+    .spec-chip {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      padding: 5px 11px;
+      border-radius: 6px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      height: auto;
+    }
+
+    .portfolio-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 16px;
+      margin-top: auto;
+    }
+
+    .portfolio-price-tag {
+      font-family: var(--font-headline);
+      font-size: 18px;
+      font-weight: 800;
+      color: #FFFFFF;
+    }
+
+    /* =========================================================
+       FAQ ACCORDION
+       ========================================================= */
+    .faq-accordion-stack {
+      max-width: 840px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .faq-accordion-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: all 0.25s;
+    }
+
+    .faq-accordion-item.open {
+      border-color: var(--border-focus);
+      background: #101017;
+    }
+
+    .faq-question-btn {
+      width: 100%;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      text-align: left;
+      font-family: var(--font-headline);
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text-white);
+    }
+
+    .faq-toggle-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s;
+      flex-shrink: 0;
+      color: var(--text-white);
+    }
+
+    .faq-accordion-item.open .faq-toggle-icon {
+      transform: rotate(45deg);
+      background: #FFFFFF;
+      color: #050507;
+    }
+
+    .faq-answer-pane {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+      padding: 0 24px;
+    }
+
+    .faq-accordion-item.open .faq-answer-pane {
+      max-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .faq-answer-pane p {
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* =========================================================
+       CONTACTS & FOOTER
+       ========================================================= */
+    .contacts-split-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: center;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 44px;
+    }
+
+    .contact-row-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .contact-bubble {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      flex-shrink: 0;
+    }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 34px 0;
+      background: #020204;
+    }
+
+    .footer-dual-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* Floating WhatsApp Button */
+    .floating-whatsapp-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #25D366;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+      z-index: 99;
+      transition: all 0.3s;
+    }
+
+    .floating-whatsapp-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 15px 35px rgba(37, 211, 102, 0.6);
+    }
+
+    .floating-whatsapp-btn svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    /* =========================================================
+       MODAL DIALOG
+       ========================================================= */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal-card {
+      background: #0D0D12;
+      border: 1px solid var(--border-highlight);
+      border-radius: var(--radius-xl);
+      max-width: 480px;
+      width: 100%;
+      padding: 36px;
+      position: relative;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
+      animation: modalFadeIn 0.25s ease-out;
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.96) translateY(10px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-close-x {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+
+    .modal-close-x:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #FFFFFF;
+    }
+
+    .form-group-block {
+      margin-bottom: 18px;
+    }
+
+    .form-label-caption {
+      display: block;
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .form-input-field {
+      width: 100%;
+      background: #050508;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 13px 16px;
+      color: #FFFFFF;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-input-field:focus {
+      border-color: #FFFFFF;
+    }
+
+    /* =========================================================
+       RESPONSIVE BREAKPOINTS (ZERO HORIZONTAL OVERFLOW)
+       ========================================================= */
+    @media (max-width: 980px) {
+      .hero-dual-columns {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+      .car-class-selector-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .services-selection-grid {
+        grid-template-columns: 1fr;
+      }
+      .portfolio-triad-grid {
+        grid-template-columns: 1fr;
+      }
+      .contacts-split-layout {
+        grid-template-columns: 1fr;
+      }
+      .metrics-quad-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+      }
+      .metric-item-col:nth-child(2)::after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links-list {
+        display: none;
+      }
+      .hero-split-section {
+        padding: 36px 0 50px;
+      }
+      .configurator-shell {
+        padding: 24px 18px;
+      }
+      .hero-visual-frame img {
+        height: 320px;
+      }
+      .slider-container-element {
+        height: 320px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-title-giant {
+        font-size: 21px;
+        line-height: 1.22;
+        letter-spacing: -0.01em;
+      }
+      .brand-logo-img {
+        height: 24px;
+      }
+      .phone-number-bold {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+      .header-contact-cluster {
+        gap: 8px;
+      }
+      .header-vk-pill {
+        width: 32px;
+        height: 32px;
+      }
+      .phone-address-sub {
+        display: none;
+      }
+      .header-contact-cluster .btn {
+        display: none;
+      }
+      .car-class-selector-grid {
+        grid-template-columns: 1fr;
+      }
+      .metrics-quad-row {
+        grid-template-columns: 1fr;
+      }
+      .metric-item-col::after {
+        display: none;
+      }
+      .hero-action-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+      .hero-action-buttons .btn {
+        width: 100%;
+      }
+      .calculator-summary-card {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .calculator-summary-card .btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-layout">
+      <a href="#" class="brand-logo-wrap">
+        <img src="vershina_logo.svg" alt="Вершина Детейлинг" class="brand-logo-img">
+      </a>
+
+      <ul class="nav-links-list">
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#calculator">Калькулятор</a></li>
+        <li><a href="#slider">Результат</a></li>
+        <li><a href="#portfolio">Примеры работ</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+
+      <div class="header-contact-cluster">
+        <a href="https://vk.com/vershina64" target="_blank" class="header-vk-pill" title="VK Детейлинг Вершина">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:19px; height:19px;"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.38 13.91h-1.61c-.61 0-.8-.49-1.89-1.58-1-.96-1.44-1.08-1.69-1.08-.35 0-.45.1-.45.58v1.43c0 .39-.12.65-1.16.65-1.72 0-3.63-1.05-4.98-3.01-2.04-2.9-2.6-5.09-2.6-5.53 0-.25.1-.48.58-.48h1.61c.43 0 .6.2.77.67.84 2.45 2.25 4.6 2.83 4.6.22 0 .32-.1.32-.65V9.47c-.07-1.17-.68-1.27-.68-1.69 0-.2.17-.4.43-.4h2.53c.36 0 .49.19.49.61v3.31c0 .36.16.49.27.49.22 0 .4-.13.82-.55 1.28-1.43 2.19-3.64 2.19-3.64.12-.25.33-.48.76-.48h1.61c.48 0 .59.25.48.61-.2 0.94-2.18 3.73-2.28 3.89-.2.31-.28.45 0 .82.2.27.88.86 1.33 1.38.82.95 1.45 1.75 1.62 2.3.17.55-.09.84-.87.84z"/></svg>
+        </a>
+        <div class="phone-text-block">
+          <a href="tel:+79297778864" class="phone-number-bold">+7 (929) 777-88-64</a>
+          <span class="phone-address-sub">ул. Тархова, 5А • 10:00–20:00</span>
+        </div>
+        <a href="#calculator" class="btn btn-chrome" style="padding:10px 18px; font-size:12px;">Рассчитать</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       HERO SECTION (STEALTH SUPERCAR LUXURY)
+       ========================================================= -->
+  <section class="hero-split-section">
+    <div class="container hero-dual-columns">
+      <div>
+        <div class="section-kicker-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:13px; height:13px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Премиальный детейлинг & защита кузова в Саратове
+        </div>
+
+        <h1 class="hero-title-giant">
+          Бескомпромиссная защита. <br>
+          <span class="silver-gradient-text">Вершина стиля.</span>
+        </h1>
+
+        <p class="hero-deck-paragraph">
+          Оклейка зон риска полиуретановой бронепленкой 200 мкм, антихром, оклейка крыши под панораму и послойная восстановительная полировка на ул. имени С.Ф. Тархова, 5А.
+        </p>
+
+        <div class="hero-action-buttons">
+          <a href="#calculator" class="btn btn-chrome">
+            Рассчитать стоимость
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:16px; height:16px;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="https://wa.me/79297778864" target="_blank" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px; height:16px;"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+            Написать в WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual-frame">
+        <img src="hero_car.jpg" alt="Детейлинг студия Вершина">
+
+        <!-- Floating Badge 1 -->
+        <div class="floating-trust-badge pill-top-right">
+          <div class="badge-icon-silver">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px; height:18px; color:#FBBF24;"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+          </div>
+          <div>
+            <div style="font-size:12.5px; font-weight:800; color:#fff;">Рейтинг 5.0</div>
+            <div style="font-size:10.5px; color:var(--text-secondary);">70 отзывов на Яндекс Картах</div>
+          </div>
+        </div>
+
+        <!-- Floating Badge 2 -->
+        <div class="floating-trust-badge pill-bottom-left">
+          <div class="badge-icon-silver">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div>
+            <div style="font-size:12.5px; font-weight:800; color:#fff;">Гарантия до 5 лет</div>
+            <div style="font-size:10.5px; color:var(--text-secondary);">Бронепленка 200 микрон</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       METRICS RIBBON (TESLA STYLE)
+       ========================================================= -->
+  <section class="metrics-ribbon-section">
+    <div class="container">
+      <div class="metrics-quad-row">
+        <div class="metric-item-col">
+          <div class="metric-number-bold">5.0</div>
+          <div class="metric-label-muted">Рейтинг Яндекс Карт</div>
+        </div>
+        <div class="metric-item-col">
+          <div class="metric-number-bold">500+</div>
+          <div class="metric-label-muted">Автомобилей защищено</div>
+        </div>
+        <div class="metric-item-col">
+          <div class="metric-number-bold">1.7K+</div>
+          <div class="metric-label-muted">Подписчиков в VK</div>
+        </div>
+        <div class="metric-item-col">
+          <div class="metric-number-bold">5 лет</div>
+          <div class="metric-label-muted">Гарантия на полиуретан</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       DYNAMIC CALCULATOR (WITH STRICT 0 ₽ ZERO-STATE)
+       ========================================================= -->
+  <section id="calculator" class="section-wrap" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-kicker-tag">Интерактивный расчет</span>
+        <h2 class="section-main-title">Конфигуратор стоимости</h2>
+        <p class="section-lead-text">
+          Выберите класс автомобиля и требуемые услуги. Сумма рассчитывается моментально с учетом клубной скидки 10%.
+        </p>
+      </div>
+
+      <div class="configurator-shell">
+        <!-- 1. CAR CLASS -->
+        <div class="step-badge-indicator">
+          <span class="step-number-circle">1</span>
+          Класс вашего автомобиля
+        </div>
+
+        <div class="car-class-selector-grid">
+          <div class="car-class-option-btn active" data-mult="1.0">
+            <div class="car-class-name">Седан / Хэтчбек</div>
+            <div class="car-class-examples">Solaris, Polo, Octavia, Camry</div>
+          </div>
+          <div class="car-class-option-btn" data-mult="1.2">
+            <div class="car-class-name">Кроссовер</div>
+            <div class="car-class-examples">Tiguan, RAV4, Sportage, Geely</div>
+          </div>
+          <div class="car-class-option-btn" data-mult="1.35">
+            <div class="car-class-name">Внедорожник</div>
+            <div class="car-class-examples">BMW X5/X6, Land Cruiser, Touareg</div>
+          </div>
+          <div class="car-class-option-btn" data-mult="1.5">
+            <div class="car-class-name">Минивэн / Пикап</div>
+            <div class="car-class-examples">V-Class, Alphard, RAM, L200</div>
+          </div>
+        </div>
+
+        <!-- 2. SERVICES LIST -->
+        <div class="step-badge-indicator">
+          <span class="step-number-circle">2</span>
+          Выберите требуемые процедуры студии
+        </div>
+
+        <div class="services-selection-grid">
+          <!-- 1 -->
+          <div class="service-check-item selected" data-base="60000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Оклейка зон риска в полиуретан</span>
+                <span class="service-price-amount" data-price-tag>60 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Капот, передний бампер, оптика, зеркала, стойки и полоса над лобовым стеклом.</div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="service-check-item" data-base="15000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Антихром кузова (Black Edition)</span>
+                <span class="service-price-amount" data-price-tag>15 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Оклейка хромированных молдингов, решетки радиатора и окантовок в глубокий черный глянец.</div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="service-check-item" data-base="14000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Оклейка крыши под панораму</span>
+                <span class="service-price-amount" data-price-tag>14 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Премиальный черный полиуретан со стеклянным зеркальным эффектом панорамной крыши.</div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="service-check-item selected" data-base="12000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Профессиональная полировка кузова</span>
+                <span class="service-price-amount" data-price-tag>12 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Устранение до 95% царапин, паутинки и голограмм с контролем толщины заводского лака.</div>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="service-check-item" data-base="12000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Детейлинг химчистка с разбором</span>
+                <span class="service-price-amount" data-price-tag>12 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Демонтаж сидений, глубинная экстракторная чистка, озонация и антибактериальная обработка.</div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="service-check-item" data-base="15000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Шумоизоляция арок и салона</span>
+                <span class="service-price-amount" data-price-tag>15 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Снижение гула шин и гравия. Вибродемпферы премиум-класса + защитный антикор-барьер.</div>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="service-check-item" data-base="5000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Полировка и бронирование оптики</span>
+                <span class="service-price-amount" data-price-tag>5 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Восстановление заводской прозрачности фар и защита полиуретановой бронепленкой.</div>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="service-check-item" data-base="5000">
+            <div class="checkbox-indicator-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:13px; height:13px;"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div class="service-info-col">
+              <div class="service-title-row">
+                <span class="service-label-text">Тонирование стекол премиум-пленкой</span>
+                <span class="service-price-amount" data-price-tag>5 000 ₽</span>
+              </div>
+              <div class="service-subtext-desc">Защита салона от ультрафиолета и посторонних глаз. Пленка не выгорает и не мутнеет.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUMMARY BAR (WITH ZERO STATE) -->
+        <div class="calculator-summary-card">
+          <div>
+            <div style="font-size:12px; font-weight:700; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px;" id="summaryStatusLabel">
+              Итого с учетом скидки 10%:
+            </div>
+            <div style="display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;">
+              <span class="old-price-strike" id="oldPriceText">72 000 ₽</span>
+              <span class="price-headline-animated" id="finalPriceText">64 800 ₽</span>
+              <span class="discount-pill-glow" id="discountBadge">Выгода <span id="saveAmountText">7 200</span> ₽</span>
+            </div>
+          </div>
+
+          <button id="bookCtaBtn" class="btn btn-chrome" onclick="openBookingModal()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><polyline points="20 6 9 17 4 12"/></svg>
+            Зафиксировать расчет и скидку
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       BEFORE / AFTER OPTICAL SLIDER
+       ========================================================= -->
+  <section id="slider" class="section-wrap" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-kicker-tag">Оптический результат</span>
+        <h2 class="section-main-title">До и после детейлинга</h2>
+        <p class="section-lead-text">
+          Потяните интерактивный разделитель: паутинка, царапины и матовость превращаются в зеркальный глянец.
+        </p>
+      </div>
+
+      <div class="slider-stage-wrapper">
+        <div class="slider-container-element" id="sliderContainer">
+          <!-- Before Layer -->
+          <div class="slider-image-layer slider-layer-before">
+            <div class="slider-scratch-overlay"></div>
+            <div class="slider-badge-label label-before-pos">До полировки</div>
+          </div>
+
+          <!-- After Layer -->
+          <div class="slider-image-layer slider-layer-after" id="afterImageLayer">
+            <div class="slider-badge-label label-after-pos">После Вершины</div>
+          </div>
+
+          <!-- Divider -->
+          <div class="slider-divider-line" id="dividerLine">
+            <div class="slider-handle-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><path d="m8 18-6-6 6-6"/><path d="m16 6 6 6-6 6"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PORTFOLIO (TESLA MODEL-CARD STYLE)
+       ========================================================= -->
+  <section id="portfolio" class="section-wrap" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-kicker-tag">Портфолио студии</span>
+        <h2 class="section-main-title">Выполненные работы</h2>
+        <p class="section-lead-text">
+          Реальные проекты по бронированию, антихрому и полировке в боксе на ул. Тархова, 5А.
+        </p>
+      </div>
+
+      <div class="portfolio-triad-grid">
+        <!-- 1 -->
+        <div class="portfolio-car-card">
+          <div class="portfolio-photo-wrap">
+            <span class="portfolio-tag-pill">ХИТ • АНТИХРОМ</span>
+            <img src="service_ppf.jpg" alt="Оклейка зон риска и антихром">
+          </div>
+          <div class="portfolio-card-body">
+            <h3 class="portfolio-car-name">Комплекс «Black Edition» + Зоны риска</h3>
+            <div class="specs-chips-list">
+              <span class="spec-chip">Полиуретан 200 мкм</span>
+              <span class="spec-chip">Антихром молдингов</span>
+              <span class="spec-chip">Срок: 2 дня</span>
+            </div>
+            <div class="portfolio-card-footer">
+              <span class="portfolio-price-tag">75 000 ₽</span>
+              <button class="btn btn-outline-white" style="padding:8px 16px; font-size:12px;" onclick="quickBook('Комплекс Black Edition', 75000)">Записаться</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="portfolio-car-card">
+          <div class="portfolio-photo-wrap">
+            <span class="portfolio-tag-pill">ГЛЯНЕЦ • ПАНОРАМА</span>
+            <img src="service_polish.jpg" alt="Оклейка крыши под панораму">
+          </div>
+          <div class="portfolio-card-body">
+            <h3 class="portfolio-car-name">Оклейка крыши под панораму + Полировка</h3>
+            <div class="specs-chips-list">
+              <span class="spec-chip">Черный суперглянец</span>
+              <span class="spec-chip">Зеркальный лак</span>
+              <span class="spec-chip">Срок: 1 день</span>
+            </div>
+            <div class="portfolio-card-footer">
+              <span class="portfolio-price-tag">26 000 ₽</span>
+              <button class="btn btn-outline-white" style="padding:8px 16px; font-size:12px;" onclick="quickBook('Крыша под панораму + Полировка', 26000)">Записаться</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="portfolio-car-card">
+          <div class="portfolio-photo-wrap">
+            <span class="portfolio-tag-pill">ПРЕМИУМ УХОД</span>
+            <img src="service_interior.jpg" alt="Химчистка салона с разбором">
+          </div>
+          <div class="portfolio-card-body">
+            <h3 class="portfolio-car-name">Глубокая химчистка с разбором + Озонация</h3>
+            <div class="specs-chips-list">
+              <span class="spec-chip">Снятие сидений</span>
+              <span class="spec-chip">Удаление запахов</span>
+              <span class="spec-chip">Срок: 1 день</span>
+            </div>
+            <div class="portfolio-card-footer">
+              <span class="portfolio-price-tag">13 000 ₽</span>
+              <button class="btn btn-outline-white" style="padding:8px 16px; font-size:12px;" onclick="quickBook('Химчистка с разбором', 13000)">Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VK LIVE COMMUNITY BANNER -->
+      <div style="margin-top:36px; background:#0B0B10; border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:24px 32px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+        <div style="display:flex; align-items:center; gap:16px;">
+          <div style="width:48px; height:48px; border-radius:12px; background:#0077FF; display:flex; align-items:center; justify-content:center; color:#fff; flex-shrink:0;">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:24px; height:24px;"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.38 13.91h-1.61c-.61 0-.8-.49-1.89-1.58-1-.96-1.44-1.08-1.69-1.08-.35 0-.45.1-.45.58v1.43c0 .39-.12.65-1.16.65-1.72 0-3.63-1.05-4.98-3.01-2.04-2.9-2.6-5.09-2.6-5.53 0-.25.1-.48.58-.48h1.61c.43 0 .6.2.77.67.84 2.45 2.25 4.6 2.83 4.6.22 0 .32-.1.32-.65V9.47c-.07-1.17-.68-1.27-.68-1.69 0-.2.17-.4.43-.4h2.53c.36 0 .49.19.49.61v3.31c0 .36.16.49.27.49.22 0 .4-.13.82-.55 1.28-1.43 2.19-3.64 2.19-3.64.12-.25.33-.48.76-.48h1.61c.48 0 .59.25.48.61-.2 0.94-2.18 3.73-2.28 3.89-.2.31-.28.45 0 .82.2.27.88.86 1.33 1.38.82.95 1.45 1.75 1.62 2.3.17.55-.09.84-.87.84z"/></svg>
+          </div>
+          <div>
+            <div style="font-family:var(--font-headline); font-size:16px; font-weight:700; color:#fff;">Смотрите свежие фотоотчеты в сообществе VK (1.7K+ участников)</div>
+            <div style="font-size:13px; color:var(--text-secondary); margin-top:2px;">Регулярно выкладываем результаты полировки, оклейки и антихрома в группе vk.com/vershina64</div>
+          </div>
+        </div>
+        <a href="https://vk.com/vershina64" target="_blank" class="btn btn-ghost" style="border-color:rgba(0,119,255,0.4); color:#fff; display:inline-flex; align-items:center; gap:8px;">
+          Перейти в группу VK
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:16px; height:16px;"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FAQ ACCORDION
+       ========================================================= -->
+  <section id="faq" class="section-wrap" style="padding-top:0;">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-kicker-tag">Вопросы и ответы</span>
+        <h2 class="section-main-title">Часто задаваемые вопросы</h2>
+        <p class="section-lead-text">
+          Все, что нужно знать перед тем, как привезти свой автомобиль в студию «Вершина».
+        </p>
+      </div>
+
+      <div class="faq-accordion-stack">
+        <!-- 1 -->
+        <div class="faq-accordion-item open">
+          <button class="faq-question-btn" onclick="toggleFaq(this)">
+            <span>Сколько держится полиуретановая бронепленка?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer-pane">
+            <p>Мы работаем с премиальным полиуретаном толщиной 200 микрон с функцией самозатягивания царапин от тепла. Пленка сохраняет кристальную прозрачность до 5–7 лет, не желтеет и защищает от гравия на трассе.</p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="faq-accordion-item">
+          <button class="faq-question-btn" onclick="toggleFaq(this)">
+            <span>Что входит в антихром и не облезет ли он на мойке?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer-pane">
+            <p>Антихром выполняется специальной литой виниловой или полиуретановой пленкой в глубокий черный глянец с подворотом краев. Мы даем гарантию: пленка выдерживает бесконтактную химию и мороз.</p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="faq-accordion-item">
+          <button class="faq-question-btn" onclick="toggleFaq(this)">
+            <span>Сколько времени занимает полировка кузова?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer-pane">
+            <p>В среднем 1–2 рабочих дня. Процесс включает деликатную мойку, очистку глиной от битума и вкраплений, трехэтапную полировку пастами разной зернистости и нанесение защитного силанта.</p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="faq-accordion-item">
+          <button class="faq-question-btn" onclick="toggleFaq(this)">
+            <span>Как зафиксировать скидку 10% с онлайн-калькулятора?</span>
+            <span class="faq-toggle-icon">+</span>
+          </button>
+          <div class="faq-answer-pane">
+            <p>Просто нажмите кнопку «Зафиксировать расчет и скидку» в калькуляторе выше и отправьте форму. Система сгенерирует ваш персональный промокод, который мастер применит при заезде в бокс.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CONTACTS SECTION
+       ========================================================= -->
+  <section id="contacts" class="section-wrap" style="padding-top:0;">
+    <div class="container">
+      <div class="contacts-split-layout">
+        <div>
+          <span class="section-kicker-tag">Локация и связь</span>
+          <h2 style="font-family:var(--font-headline); font-size:26px; font-weight:800; margin-bottom:20px; text-transform:uppercase;">
+            Ждем вас в боксе на Тархова, 5А
+          </h2>
+
+          <div class="contact-row-item">
+            <div class="contact-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:20px; height:20px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div style="font-size:15px; font-weight:700; color:#fff;">г. Саратов, ул. имени С.Ф. Тархова, 5А</div>
+              <div style="font-size:12.5px; color:var(--text-secondary);">Ленинский район (Солнечный), удобный заезд</div>
+            </div>
+          </div>
+
+          <div class="contact-row-item">
+            <div class="contact-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:20px; height:20px;"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <div style="font-size:15px; font-weight:700; color:#fff;">Ежедневно с 10:00 до 20:00</div>
+              <div style="font-size:12.5px; color:var(--text-secondary);">Прием автомобилей по предварительной записи</div>
+            </div>
+          </div>
+
+          <div class="contact-row-item">
+            <div class="contact-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:20px; height:20px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <div style="font-size:15px; font-weight:700; color:#fff;">
+                <a href="tel:+79297778864">+7 (929) 777-88-64</a> • <a href="tel:+79050347890">+7 (905) 034-78-90</a>
+              </div>
+              <div style="font-size:12.5px; color:var(--text-secondary);">Звонки и сообщения WhatsApp</div>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:12px; margin-top:26px; flex-wrap:wrap;">
+            <a href="https://wa.me/79297778864" target="_blank" class="btn btn-chrome" style="padding:12px 22px;">
+              Написать в WhatsApp
+            </a>
+            <a href="https://vk.com/vershina64" target="_blank" class="btn btn-ghost" style="padding:12px 22px;">
+              Сообщество VK
+            </a>
+          </div>
+        </div>
+
+        <!-- Direction Box -->
+        <div style="background:#060609; border:1px solid var(--border-subtle); border-radius:var(--radius-lg); padding:32px; text-align:center;">
+          <div style="width:54px; height:54px; border-radius:50%; background:rgba(255, 255, 255, 0.08); border:1px solid rgba(255, 255, 255, 0.2); color:#FFFFFF; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:24px; height:24px;"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          </div>
+          <h3 style="font-family:var(--font-headline); font-size:18px; margin-bottom:8px;">Маршрут на Тархова, 5А</h3>
+          <p style="font-size:13px; color:var(--text-secondary); margin-bottom:20px; line-height:1.5;">
+            Постройте прямой маршрут на Яндекс.Картах прямо до ворот детейлинг-студии «Вершина».
+          </p>
+          <a href="https://yandex.ru/maps/org/vershina/57621700838/" target="_blank" class="btn btn-ghost" style="width:100%;">
+            Открыть в Яндекс.Картах
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-dual-row">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <img src="vershina_logo.svg" alt="Вершина Детейлинг" style="height:32px;">
+      </div>
+
+      <div style="font-size:12.5px; color:var(--text-muted);">
+        © 2026 Детейлинг-студия «Вершина». г. Саратов, ул. имени С.Ф. Тархова, 5А.
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:center;">
+        <a href="https://wa.me/79297778864" target="_blank" style="color:#FFFFFF; font-weight:700; font-size:13px;">WhatsApp</a>
+        <a href="https://vk.com/vershina64" target="_blank" style="color:#0077FF; font-weight:700; font-size:13px; display:inline-flex; align-items:center; gap:6px;">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:16px; height:16px;"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.38 13.91h-1.61c-.61 0-.8-.49-1.89-1.58-1-.96-1.44-1.08-1.69-1.08-.35 0-.45.1-.45.58v1.43c0 .39-.12.65-1.16.65-1.72 0-3.63-1.05-4.98-3.01-2.04-2.9-2.6-5.09-2.6-5.53 0-.25.1-.48.58-.48h1.61c.43 0 .6.2.77.67.84 2.45 2.25 4.6 2.83 4.6.22 0 .32-.1.32-.65V9.47c-.07-1.17-.68-1.27-.68-1.69 0-.2.17-.4.43-.4h2.53c.36 0 .49.19.49.61v3.31c0 .36.16.49.27.49.22 0 .4-.13.82-.55 1.28-1.43 2.19-3.64 2.19-3.64.12-.25.33-.48.76-.48h1.61c.48 0 .59.25.48.61-.2 0.94-2.18 3.73-2.28 3.89-.2.31-.28.45 0 .82.2.27.88.86 1.33 1.38.82.95 1.45 1.75 1.62 2.3.17.55-.09.84-.87.84z"/></svg>
+          ВКонтакте (1.7K)
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/79297778864" target="_blank" class="floating-whatsapp-btn" title="Написать в WhatsApp студии">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+  </a>
+
+  <!-- =========================================================
+       BOOKING MODAL
+       ========================================================= -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-card">
+      <button class="modal-close-x" onclick="closeBookingModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width:18px; height:18px;"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <!-- FORM -->
+      <div id="modalFormContainer">
+        <h3 style="font-family:var(--font-headline); font-size:18px; font-weight:800; margin-bottom:6px;">Зафиксировать скидку 10%</h3>
+        <p style="font-size:12.5px; color:var(--text-secondary); margin-bottom:18px;">
+          Расчет: <strong id="modalCalculationSnippet" style="color:#FFFFFF;">64 800 ₽</strong>. Мастер свяжется для подтверждения даты заезда в бокс.
+        </p>
+
+        <form id="leadForm" onsubmit="handleLeadSubmit(event)">
+          <div class="form-group-block">
+            <label class="form-label-caption">Ваше имя</label>
+            <input type="text" id="leadName" class="form-input-field" placeholder="Александр" required>
+          </div>
+
+          <div class="form-group-block">
+            <label class="form-label-caption">Номер телефона (РФ)</label>
+            <input type="tel" id="leadPhone" class="form-input-field" placeholder="+7 (___) ___-__-__" required>
+          </div>
+
+          <div class="form-group-block">
+            <label class="form-label-caption">Марка и модель авто</label>
+            <input type="text" id="leadCar" class="form-input-field" placeholder="Например: BMW X5 или Camry">
+          </div>
+
+          <button type="submit" class="btn btn-chrome" style="width:100%; margin-top:8px;">
+            Подтвердить запись со скидкой
+          </button>
+        </form>
+      </div>
+
+      <!-- SUCCESS SCREEN -->
+      <div id="modalSuccessContainer" style="display:none; text-align:center; padding:15px 0;">
+        <div style="width:56px; height:56px; border-radius:50%; background:rgba(255,255,255,0.1); border:1px solid #FFFFFF; color:#FFFFFF; display:flex; align-items:center; justify-content:center; margin:0 auto 16px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width:28px; height:28px;"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h3 style="font-family:var(--font-headline); font-size:20px; font-weight:800; margin-bottom:8px;">Заявка принята!</h3>
+        <p style="font-size:13px; color:var(--text-secondary); margin-bottom:20px;">
+          Ваш персональный промокод на выгоду 10%: <br>
+          <strong id="voucherCodeText" style="font-family:var(--font-headline); font-size:22px; color:#FFFFFF; letter-spacing:2px; display:inline-block; margin-top:8px;">#VERSHINA-777</strong>
+        </p>
+        <div style="background:#060609; border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:14px; margin-bottom:20px; font-size:12px; color:var(--text-secondary); text-align:left;">
+          <div>Автомобиль: <strong id="confirmedCarText" style="color:#fff;"></strong></div>
+          <div>Сумма: <strong id="confirmedPriceText" style="color:#FFFFFF;"></strong></div>
+          <div>Локация: <span style="color:#fff;">Саратов, ул. Тархова, 5А</span></div>
+        </div>
+        <a id="waDirectSendBtn" href="#" target="_blank" class="btn btn-chrome" style="width:100%;">
+          Открыть диалог в WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       SCRIPTS (CALCULATOR MATH + ZERO STATE + SLIDER + MODAL)
+       ========================================================= -->
+  <script>
+    /* 1. BEFORE/AFTER SLIDER INTERACTION */
+    const sliderContainer = document.getElementById('sliderContainer');
+    const afterImageLayer = document.getElementById('afterImageLayer');
+    const dividerLine = document.getElementById('dividerLine');
+    let isDragging = false;
+
+    function setSliderPosition(x) {
+      const rect = sliderContainer.getBoundingClientRect();
+      let pos = (x - rect.left) / rect.width;
+      if (pos < 0.03) pos = 0.03;
+      if (pos > 0.97) pos = 0.97;
+      const percentage = (pos * 100).toFixed(2);
+      afterImageLayer.style.clipPath = `polygon(0 0, ${percentage}% 0, ${percentage}% 100%, 0 100%)`;
+      afterImageLayer.style.webkitClipPath = `polygon(0 0, ${percentage}% 0, ${percentage}% 100%, 0 100%)`;
+      dividerLine.style.left = percentage + '%';
+    }
+
+    sliderContainer.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      setSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      setSliderPosition(e.clientX);
+    });
+
+    window.addEventListener('mouseup', () => { isDragging = false; });
+
+    sliderContainer.addEventListener('touchstart', (e) => {
+      isDragging = true;
+      setSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      setSliderPosition(e.touches[0].clientX);
+    }, { passive: true });
+
+    window.addEventListener('touchend', () => { isDragging = false; });
+
+    /* 2. DYNAMIC CALCULATOR WITH STRICT ZERO-STATE 0 ₽ */
+    let currentMultiplier = 1.0;
+    const classButtons = document.querySelectorAll('.car-class-option-btn');
+    const serviceItems = document.querySelectorAll('.service-check-item');
+    const oldPriceText = document.getElementById('oldPriceText');
+    const finalPriceText = document.getElementById('finalPriceText');
+    const saveAmountText = document.getElementById('saveAmountText');
+    const discountBadge = document.getElementById('discountBadge');
+    const summaryStatusLabel = document.getElementById('summaryStatusLabel');
+    const bookCtaBtn = document.getElementById('bookCtaBtn');
+
+    function formatNumber(num) {
+      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+    }
+
+    function calculateTotal() {
+      let rawTotal = 0;
+      let selectedCount = 0;
+
+      serviceItems.forEach(item => {
+        const base = parseInt(item.getAttribute('data-base'), 10);
+        const adjusted = Math.round(base * currentMultiplier);
+        const tag = item.querySelector('[data-price-tag]');
+        if (tag) tag.textContent = formatNumber(adjusted) + ' ₽';
+
+        if (item.classList.contains('selected')) {
+          rawTotal += adjusted;
+          selectedCount++;
+        }
+      });
+
+      // ZERO-SUM HANDLING: If user unchecks everything, price is 0 ₽
+      if (selectedCount === 0 || rawTotal === 0) {
+        oldPriceText.style.display = 'none';
+        discountBadge.style.display = 'none';
+        finalPriceText.textContent = '0 ₽';
+        summaryStatusLabel.textContent = 'Выберите услуги в списке выше:';
+        bookCtaBtn.innerHTML = `Выберите услуги в списке`;
+        bookCtaBtn.style.opacity = '0.5';
+        bookCtaBtn.style.pointerEvents = 'none';
+
+        const snippet = document.getElementById('modalCalculationSnippet');
+        if (snippet) snippet.textContent = 'Услуги не выбраны';
+      } else {
+        oldPriceText.style.display = 'inline';
+        discountBadge.style.display = 'inline-block';
+        summaryStatusLabel.textContent = 'Итого с учетом скидки 10%:';
+
+        const discountedTotal = Math.round(rawTotal * 0.9);
+        const saved = rawTotal - discountedTotal;
+
+        oldPriceText.textContent = formatNumber(rawTotal) + ' ₽';
+        finalPriceText.textContent = formatNumber(discountedTotal) + ' ₽';
+        saveAmountText.textContent = formatNumber(saved);
+
+        bookCtaBtn.innerHTML = `Зафиксировать расчет и скидку`;
+        bookCtaBtn.style.opacity = '1';
+        bookCtaBtn.style.pointerEvents = 'auto';
+
+        const snippet = document.getElementById('modalCalculationSnippet');
+        if (snippet) snippet.textContent = formatNumber(discountedTotal) + ' ₽ (выгода 10%)';
+      }
+    }
+
+    classButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        classButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentMultiplier = parseFloat(btn.getAttribute('data-mult'));
+        calculateTotal();
+      });
+    });
+
+    serviceItems.forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('selected');
+        calculateTotal();
+      });
+    });
+
+    calculateTotal();
+
+    /* 3. FAQ ACCORDION TOGGLE */
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-accordion-item');
+      const allItems = document.querySelectorAll('.faq-accordion-item');
+      
+      allItems.forEach(i => {
+        if (i !== item) i.classList.remove('open');
+      });
+
+      item.classList.toggle('open');
+    }
+
+    /* 4. MODAL & PHONE AUTO-MASKING */
+    const bookingModal = document.getElementById('bookingModal');
+    const leadPhone = document.getElementById('leadPhone');
+
+    function openBookingModal() {
+      bookingModal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('modalFormContainer').style.display = 'block';
+      document.getElementById('modalSuccessContainer').style.display = 'none';
+    }
+
+    function closeBookingModal() {
+      bookingModal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+
+    bookingModal.addEventListener('click', (e) => {
+      if (e.target === bookingModal) closeBookingModal();
+    });
+
+    // Auto-formatting Russian phone
+    leadPhone.addEventListener('input', function(e) {
+      let val = this.value.replace(/\D/g, '');
+      if (val.startsWith('7') || val.startsWith('8')) val = val.substring(1);
+      
+      let res = '+7 (';
+      if (val.length > 0) res += val.substring(0, 3);
+      if (val.length >= 3) res += ') ' + val.substring(3, 6);
+      if (val.length >= 6) res += '-' + val.substring(6, 8);
+      if (val.length >= 8) res += '-' + val.substring(8, 10);
+      
+      this.value = (val.length === 0) ? '' : res;
+    });
+
+    function quickBook(serviceName, basePrice) {
+      openBookingModal();
+      const snippet = document.getElementById('modalCalculationSnippet');
+      if (snippet) snippet.textContent = `${serviceName} — от ${formatNumber(basePrice)} ₽`;
+    }
+
+    function handleLeadSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('leadName').value.trim() || 'Клиент';
+      const phone = leadPhone.value.trim();
+      const car = document.getElementById('leadCar').value.trim() || 'Автомобиль';
+      const price = finalPriceText.textContent;
+
+      const randomCode = 'VERSHINA-' + Math.floor(100 + Math.random() * 900);
+
+      document.getElementById('modalFormContainer').style.display = 'none';
+      document.getElementById('modalSuccessContainer').style.display = 'block';
+      document.getElementById('voucherCodeText').textContent = '#' + randomCode;
+      document.getElementById('confirmedCarText').textContent = car;
+      document.getElementById('confirmedPriceText').textContent = price;
+
+      const waMsg = encodeURIComponent(`Здравствуйте, Вершина Детейлинг! Заявка #${randomCode} с сайта.\nИмя: ${name}\nТелефон: ${phone}\nАвто: ${car}\nРасчетная стоимость: ${price}`);
+      document.getElementById('waDirectSendBtn').href = `https://wa.me/79297778864?text=${waMsg}`;
+    }
+  </script>
+</body>
+</html>
