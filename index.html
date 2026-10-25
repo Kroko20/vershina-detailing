@@ -1283,6 +1283,44 @@
       }
     }
   </style>
+
+  <!-- SCHEMA.ORG LOCAL BUSINESS JSON-LD (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Детейлинг-студия «Вершина»",
+    "image": "https://kroko20.github.io/vershina-detailing/hero_car.jpg",
+    "telephone": "+7-929-777-88-64",
+    "priceRange": "₽₽",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. имени С.Ф. Тархова, 5А",
+      "addressLocality": "Саратов",
+      "postalCode": "410064",
+      "addressCountry": "RU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 51.6033,
+      "longitude": 45.9867
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "70"
+    }
+  }
+  </script>
+
 </head>
 <body>
 
@@ -2176,18 +2214,46 @@
       if (e.target === bookingModal) closeBookingModal();
     });
 
+    function formatVershinaPhone(digits) {
+      if (!digits) return '';
+      let res = '+7 (';
+      res += digits.substring(0, Math.min(3, digits.length));
+      if (digits.length > 3) {
+        res += ') ' + digits.substring(3, Math.min(6, digits.length));
+      }
+      if (digits.length > 6) {
+        res += '-' + digits.substring(6, Math.min(8, digits.length));
+      }
+      if (digits.length > 8) {
+        res += '-' + digits.substring(8, 10);
+      }
+      return res;
+    }
+
+    leadPhone.addEventListener('keydown', function(e) {
+      if (e.key === 'Backspace' && this.selectionStart === this.selectionEnd) {
+        const pos = this.selectionStart;
+        if (pos > 0 && /[\s\-\)]/.test(this.value[pos - 1])) {
+          e.preventDefault();
+          let cut = pos - 1;
+          while (cut > 0 && /[\s\-\)]/.test(this.value[cut])) {
+            cut--;
+          }
+          let rawBefore = this.value.substring(0, cut).replace(/\D/g, '');
+          if (rawBefore.startsWith('7') || rawBefore.startsWith('8')) rawBefore = rawBefore.substring(1);
+          let rawAfter = this.value.substring(pos).replace(/\D/g, '');
+          let newRaw = (rawBefore + rawAfter).substring(0, 10);
+          this.value = formatVershinaPhone(newRaw);
+        }
+      }
+    });
+
     // Auto-formatting Russian phone
     leadPhone.addEventListener('input', function(e) {
       let val = this.value.replace(/\D/g, '');
       if (val.startsWith('7') || val.startsWith('8')) val = val.substring(1);
-      
-      let res = '+7 (';
-      if (val.length > 0) res += val.substring(0, 3);
-      if (val.length >= 3) res += ') ' + val.substring(3, 6);
-      if (val.length >= 6) res += '-' + val.substring(6, 8);
-      if (val.length >= 8) res += '-' + val.substring(8, 10);
-      
-      this.value = (val.length === 0) ? '' : res;
+      val = val.substring(0, 10);
+      this.value = formatVershinaPhone(val);
     });
 
     function quickBook(serviceName, basePrice) {
